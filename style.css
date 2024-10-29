@@ -1,5 +1,5 @@
 * {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     color: aliceblue;
     align-items: center;
     
@@ -8,14 +8,14 @@ body{
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)
 }
 h1{
-    background-color: aliceblue;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: #8043d1;
 }
 .bloco_principal{
 
         display: flex;
-        color: white;
-        background-color: aliceblue;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
         flex-direction: column;
         align-items: center;
         width: 400px;
@@ -28,9 +28,25 @@ h1{
     width: 200px;
     height: 40px;
     margin: 5px;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
     color: white;
     opacity: 80%;
-    border-radius: 50px;
+
+    
+}
+#login{
+    background-color: #8043d1;
+    align-items: center;
+    text-align: center;
+}
+/*animação ao passar o mause*/
+.item:hover 
+
+{ background-color: #615b97; 
+
+transition: 0.5s;
+
+opacity: 0.7;
+
 }
